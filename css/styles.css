@@ -1,0 +1,92 @@
+/* Fade In */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+/* Maison Neue */
+.maison-neue {font-family: "Maison Neue", sans-serif;}
+
+@font-face {
+    font-family: "Maison Neue";
+    src: url(fonts/maison-neue/MaisonNeue-Book.woff);
+    src: url(fonts/maison-neue/MaisonNeue-Book.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Maison Neue";
+    src: url(fonts/maison-neue/MaisonNeue-BookItalic.woff);
+    src: url(fonts/maison-neue/MaisonNeue-BookItalic.woff2);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Maison Neue";
+    src: url(fonts/maison-neue/MaisonNeue-Bold.woff);
+    src: url(fonts/maison-neue/MaisonNeue-Bold.woff2);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Maison Neue";
+    src: url(fonts/maison-neue/MaisonNeue-BoldItalic.woff);
+    src: url(fonts/maison-neue/MaisonNeue-BoldItalic.woff2);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Maison Neue";
+    src: url(fonts/maison-neue/MaisonNeue-Light.woff);
+    src: url(fonts/maison-neue/MaisonNeue-Light.woff2);
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Neue Haas Grotesk */
+.neue-haas-grotesk {font-family: "Neue Haas Grotesk", sans-serif;}
+
+@font-face {
+    font-family: "Neue Haas Grotesk";
+    src: url(fonts/neue-haas-grotesk/NeueHaasDisplay-Roman.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Neue Haas Grotesk";
+    src: url(fonts/neue-haas-grotesk/NeueHaasDisplay-RomanItalic.woff);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Neue Haas Grotesk";
+    src: url(fonts/neue-haas-grotesk/NeueHaasDisplay-Bold.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Neue Haas Grotesk";
+    src: url(fonts/neue-haas-grotesk/NeueHaasDisplay-BoldItalic.woff);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Neue Haas Grotesk";
+    src: url(fonts/neue-haas-grotesk/NeueHaasDisplay-Light.woff);
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Override Styles */
+a {color: white;}
+
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
